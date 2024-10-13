@@ -1,0 +1,14 @@
+
+.container-header {
+    padding: 1.5rem;
+    background-color: rgb(255, 222, 222);
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        padding: 0 1.5rem;
+        outline: 0;
+        border: 1px solid silver;
+        border-radius: 1rem;
+    }
+}

@@ -1,0 +1,42 @@
+.container-slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    
+    .slide-wrapper {
+        display: flex;
+    }
+
+    .slide {
+        min-width: 100%;
+        height: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .indicators {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: lightgray;
+        border: none;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .indicator.active {
+        background: gray; // Cor do indicador ativo
+    }
+
+}
